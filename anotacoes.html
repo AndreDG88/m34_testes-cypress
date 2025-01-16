@@ -18,8 +18,16 @@
     6 - Depois de configurar seu teste, volte para a área de trabalho que o Cypress abriu no navegador, lá a esquerda clique no ícone "Specs".
         Você irá voltar ao diretório de arquivos, e então poderá acessar a pasta "ebac-jobs" por lá. E assim pode executar o teste home que foi configurado.
 
+    
     Comandos:
     1 - npm install --save-dev cypress@12.6.0  // para instalação do cypres, o "@12.6.0" é apenas para a versão usada na aula.
+    
     2 - npm run cypress open // para executar o cypress em um navegador e no terminal
+    
     3 - npm run cypress run // para executar o cypress apenas no terminal
+    
+    4 - npm install --save-dev mochawesome // Plugin para gerar relatórios sobre os testes
+        OBS: A configuração deste plugin tem que ser feita no cypress.config.js
+
+    5 - npm run cypress run --reporter mochawesome // para executar o cypress no terminal com relatórios
 -->
